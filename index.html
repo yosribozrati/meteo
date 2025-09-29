@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Tunisia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather in Tunisia</h1>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter a city in Tunisia (e.g., Tunis)" list="tunisian-cities">
+            <button id="search-btn">Search</button>
+        </div>
+        <datalist id="tunisian-cities">
+            <option value="Tunis">
+            <option value="Sfax">
+            <option value="Sousse">
+            <option value="Kairouan">
+            <option value="Bizerte">
+            <option value="Gabès">
+            <option value="Ariana">
+            <option value="Gafsa">
+            <option value="La Marsa">
+            <option value="Monastir">
+            <option value="Ben Arous">
+            <option value="Tataouine">
+            <option value="Médenine">
+            <option value="Nabeul">
+            <option value="Zaghouan">
+            <option value="Kasserine">
+            <option value="Sidi Bouzid">
+            <option value="Jendouba">
+            <option value="Le Kef">
+            <option value="Siliana">
+            <option value="Tozeur">
+            <option value="Kebili">
+            <option value="Mahdia">
+            <option value="Beja">
+            <option value="Manouba">
+        </datalist>
+        <div id="weather-display" class="weather-info">
+            <!-- Weather data will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
